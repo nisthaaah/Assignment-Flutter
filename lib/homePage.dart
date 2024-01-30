@@ -31,7 +31,7 @@ class HomePage extends StatelessWidget {
                         'User Information:',
                         style: GoogleFonts.montserrat(
                           textStyle: const TextStyle(
-                            fontSize: 30,
+                            fontSize: 20,
                             fontWeight: FontWeight.w800,
                             color: Colors.black,
                           ),
@@ -42,7 +42,7 @@ class HomePage extends StatelessWidget {
                         'Name: ${user.displayName}',
                         style: GoogleFonts.montserrat(
                           textStyle: const TextStyle(
-                            fontSize: 30,
+                            fontSize: 20,
                             fontWeight: FontWeight.w800,
                             color: Colors.black,
                           ),
@@ -52,7 +52,7 @@ class HomePage extends StatelessWidget {
                         'Email: ${user.email}',
                         style: GoogleFonts.montserrat(
                           textStyle: const TextStyle(
-                            fontSize: 30,
+                            fontSize: 15,
                             fontWeight: FontWeight.w800,
                             color: Colors.black,
                           ),
